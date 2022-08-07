@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0 auto;
   text-align: center;
@@ -26,6 +30,10 @@ header img {
   border-radius: 50%;
 }
 
+nav a {
+  text-decoration: none;
+}
+
 nav ul {
   margin-right: 100px;
 }
@@ -40,7 +48,17 @@ nav li {
   color: #435560;
 }
 
-nav li:hover {
+nav a:visited {
+  font-family: 'Nanum Gothic', sans-serif;
+  display: inline-flex;
+  align-items: center;
+  padding-top: 20px;
+  width: 80px;
+  font-size: 1.0625rem;
+  color: #435560;
+}
+
+nav a:hover {
   color: #B5DEFF;
   transition: 0.2s;
   cursor: pointer;
@@ -82,12 +100,12 @@ p {
   transition: 0.6s;
 }
 
-.top-container {
+#top-container {
   width: 100%;
   height: 500px;
 }
 
-.middle-container {
+#middle-container {
   display: block;
   width: 75%;
   padding-top: 0;
@@ -96,8 +114,7 @@ p {
 
 hr {
   width: 8%;
-  margin-top: 50px;
-  margin-bottom: 100px;
+  margin: 50px auto 100px auto;
   border: 0;
   border-bottom: 5px dotted rgba(0, 0, 0, 0.2);
 }
@@ -122,7 +139,7 @@ hr {
   float: right;
   width: 13%;
   object-fit: contain;
-  padding: 50px 30px 50px 0;
+  padding: 50px 30px 50px auto;
 }
 
 .skill-row {
