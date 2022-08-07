@@ -1,3 +1,13 @@
+@media only screen and (max-width: 820px)  {
+  nav a {
+    display: none;
+  }
+  .logo {
+    align-self: auto;
+    margin-left: 43%;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
