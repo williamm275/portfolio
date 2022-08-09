@@ -48,9 +48,6 @@ header {
 
 header img {
   display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
   margin-right: auto;
   margin-left: 100px;
   height: 75px;
@@ -228,6 +225,6 @@ footer p {
   }
   .logo {
     align-self: auto;
-    margin-left: 43%;
+    margin-left: 40%;
   }
 }
