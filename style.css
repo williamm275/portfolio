@@ -210,7 +210,7 @@ html {
   }
   
   .footer-link:hover {
-    color: white;
+    color: lightgray;
     opacity: 0.8;
     transition: 0.2s;
   }
