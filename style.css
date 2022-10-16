@@ -25,6 +25,7 @@ html {
   }
   
   h3 {
+    text-align: center;
     color: #046582;
   }
   
@@ -132,17 +133,10 @@ html {
   }
   
   .lanlogos1 {
-    float: left;
-    width: 25%;
+    display: block;
+    margin: auto;
+    width: 15%;
     object-fit: contain;
-    padding: 80px 30px 80px 0;
-  }
-  
-  .lanlogos2 {
-    float: right;
-    width: 13%;
-    object-fit: contain;
-    padding: 50px 30px 50px auto;
   }
   
   .skill-row {
@@ -152,6 +146,15 @@ html {
     line-height: 2;
   }
   
+  ol li {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    color: #435560;
+    opacity: 0.7;
+    text-align: left;
+  }
+
   .contact-me {
     margin: 100px auto;
     line-height: 2;
@@ -193,13 +196,15 @@ html {
     opacity: 0.3;
     top: 50px;
     font-size: 0.7em;
+    padding-bottom: 30px;
   }
   
   .footer-link {
-    color: black;
+    color: #435560;
     position: relative;
+    font-size: 1.1rem;
     top: 35px;
-    opacity: 0.3;
+    opacity: 0.7;
     text-decoration: none;
   }
   
