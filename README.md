@@ -1,4 +1,4 @@
-# Portfolio Site <img src="https://user-images.githubusercontent.com/109120202/200468768-0987ed51-b44c-47f4-8f05-efeaa5c56bb0.png" width="50px" />
+# Portfolio Site <img src="https://user-images.githubusercontent.com/109120202/200468768-0987ed51-b44c-47f4-8f05-efeaa5c56bb0.png" width="50" />
 
 
 ## About
